@@ -8,7 +8,7 @@ function increment(){
 }
 
 function save(){
-    let countStr = count + '-'
-    saveblock.innerText += countStr
+    let countStr = count + ' - '
+    saveblock.textContent += countStr
     console.log(count) // dapat akses count hasil increment
 }
